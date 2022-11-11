@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header  class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h1><a href="/">My buch</a></h1>
+            </div>
+            <nav class="col-8">
+                <ul>
+                    <li>
+                        <a href="#">Кабинет</a>
+                        <ul>
+                            <li><a href="#">Админка</a></li>
+                            <li><a href="#">Выход</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">О письке</a></li>
+                    <li><a href="#">Кто по всюду рисует эти кресты?</a></li>
+                    <li><a href="#">Звёзд с неба не срывать!</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!--блок карусели начало-->
+<div class="container">
+    <div class="row">
+        <h2 class="slider-title">Топ записей</h2>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption-hack carousel-caption d-none d-md-block">
+                    <h5><a href="#">Блять работай!</a></h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption-hack carousel-caption d-none d-md-block">
+                    <h5><a href="#">First slide label</a></h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption-hack carousel-caption d-none d-md-block">
+                    <h5><a href="#">First slide label</a></h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<!--блко карусели конец-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
